@@ -4,16 +4,51 @@
 	<title>Start Page</title>
 	<link rel="stylesheet" href="style.css" />
 </head>
+<style>
+body {
+	background-color: #f0f0f0;
+	text-align: left;
+	color: #999;
+	font-family: ubuntu;
+	padding-top: 120px;
+	padding-left: 240px;
+	padding-right: 420px;
+}
+table {
+	margin-top: 80px;
+	//border-collapse: collapse;
+	position: relative;
+	left: 0;
+	//width: 100%;
+}
+table, th, td {
+	border: 1px, black;
+}
+th {
+	margin-bottom: 25px;
+}
+th, td {
+	width: 120px;
+	padding-right: 25px;
+	//padding-left: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+a:hover {
+	background:#fff;
+}
+a {
+	color: #999;
+	text-decoration-line: none;
+	padding:10px;
+}
+</style>
+</head>
 <body>
 
 <h1>Welcome back!</h1>
 
-<h3>Search</h3>
-<form method="get" action="https://www.startpage.com/search">
-	<input type="text" autofocus="autofocus" name="q" \>
-</form>
-
-<div class="linksbox">
+<div class="row">
 	<h3>Routine</h3>
 	<a href="https://vk.com">VK feed</a>
 	<a href="https://reddit.com">Reddit</a>
@@ -24,7 +59,7 @@
 	<a href="https://goodreads.com">Goodreads</a>
 </div>
 
-<div class="linksbox">
+<div class="row">
 	<h3>Google</h3>
 	<a href="https://youtube.com">YouTube</a>
 	<a href="https://drive.google.com">Drive</a>
