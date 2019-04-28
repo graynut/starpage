@@ -12,6 +12,7 @@ a:hover {
 }
 a {
 	color: #999;
-	text-decoration-line: none;
+	text-decoration: none;
 	padding:10px;
+	display: inline-block;
 }
